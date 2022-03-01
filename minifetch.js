@@ -1,5 +1,5 @@
 function hacer(){
-    fetch('https://masternode.id/Data.json')
+    fetch('https://diamondnode.io/Data.json')
       .then(response => console.log(response), console.log("No hay números"))
       .then(data => console.log(data))
       .then(response => response.json())
